@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(90deg, #fbfbdb 24%, #feee43 86%);
+}
+
+p {
+    color: midnightblue;
+}
+
+.nav-link {
+    color: rgba(240, 248, 255, 0.935);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgba(240, 248, 255, 0.551);
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgba(240, 248, 255, 0.551);
+}
+
+.card>img {
+    height: 20em;
+    border-bottom-style: solid;
+    border-width: 0.3px;
+}
+
+.sidebar {
+    background: linear-gradient(270deg, #fafad3b0 24%, #fff051ca 86%);
+    border-style: solid;
+}
+
+.card {
+    background-color: rgb(215, 215, 215);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card .btn.btn-primary {
+    color: white;
+}
+
+.card .card-title {
+    font-weight: bold;
+}
+
+.slide-text {
+    color: rgb(66, 66, 66);
+    margin: auto auto;
+}
+
+.footer-text {
+    color: rgb(206, 224, 255);
+    margin: auto auto;
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(90deg, #525252 24%, #888888 86%);
+    border-top-style: solid;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-links img {
+    width: 40px;
+    display: block;
+    margin-inline: 1em;
+}
+
+.btn-outline-primary {
+    background: linear-gradient(90deg, #33daff 24%, #5cfffa 86%);
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;}
+	15% {transform: translateX(-30px) rotate(-6deg);}
+	30% {transform: translateX(15px) rotate(6deg);}
+	45% {transform: translateX(-15px) rotate(-3.6deg);}
+	60% {transform: translateX(9px) rotate(2.4deg);}
+	75% {transform: translateX(-6px) rotate(-1.2deg);}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
